@@ -1,0 +1,28 @@
+print ("exam specific faulty calculator for 45 * 3 = 555, 56 + 9 = 77, 56 / 6 = 4")
+print ("Enter the First number of your choice")
+a = int(input())
+print ("You can choose from the following operators")
+print ("Enter + for addition of two numbers")
+print ("Enter - for subtraction of two numbers")
+print ("Enter * for multiplication of two numbers of two numbers")
+print ("Enter / for division of two numbers")
+print ("Enter the operation you want to perform")
+operation = input()
+print ("Enter second number of your choice")
+b = int(input())
+if operation == '*' :
+    if a == 45 and b == 3 :
+        print ("45 * 3 = 555")
+    else :
+        output = a * b
+        print ("Multiplication is: ", output)
+elif operation == '+' :
+    if a == 56 and b == 9 :
+        print ("56 + 9 = 77")
+    else :
+        output = a + b
+        print ("Sum is :", output)
+elif operation == '/' :
+    if a == 56 and b == 6 :
+        print ("56 / 6 = 4")
+    else :
